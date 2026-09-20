@@ -1,0 +1,14 @@
+/* 1기 교재 보정 — 파스텔 히어로 배경을 Day 번호에 맞게, 트랙별 색 */
+html[data-lesson="day7"] .hero-block, html[data-lesson="day8"] .hero-block, html[data-lesson="day9"] .hero-block { color: var(--ink); background: var(--sky); }
+html[data-lesson="day4"] .hero-block, html[data-lesson="day5"] .hero-block, html[data-lesson="day6"] .hero-block { background: var(--pink); }
+html[data-lesson="day1"] .hero-block, html[data-lesson="day2"] .hero-block, html[data-lesson="day3"] .hero-block { background: var(--lime); }
+html[data-lesson="day10"] .hero-block, html[data-lesson="day11"] .hero-block, html[data-lesson="day12"] .hero-block, html[data-lesson="day13"] .hero-block { background: var(--cream); }
+html[data-lesson="day14"] .hero-block, html[data-lesson="week3"] .hero-block { background: var(--coral); }
+html[data-lesson="gbam"] .hero-block { background: var(--cream); }
+html[data-lesson="tools"] .hero-block, html[data-lesson="forms"] .hero-block, html[data-lesson="stuck"] .hero-block { background: var(--mint); }
+.nav-group { margin: 16px 0 4px; padding: 0 10px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; color: #686868; }
+.nav-group:first-child { margin-top: 0; }
+.nav-day { flex-basis: 52px; }
+.content .win-note { border-left: 4px solid #252a5c; background: #eef1ff; padding: 12px 16px; border-radius: 8px; margin: 18px 0; }
+/* 작성자 메모(Windows 실기 확인 대기). 수강생에게는 보이지 않는다. 확인이 끝나면 본문에서 지운다. */
+.content .verify { display: none; }
